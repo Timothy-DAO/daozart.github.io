@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+  function play() {
+    var music = new Audio('https://github.com/Timothy-DAO/daozart.github.io/blob/main/bass.mp3?raw=true');
+    music.play();
+  }
+</style>
+</head>
+
 <body>
 
-<h1>The audio element</h1>
-
-<p>Click on the play button to play a sound:</p>
-
-<audio controls>
-  <source src="https://github.com/Timothy-DAO/daozart.github.io/blob/main/bass.mp3?raw=true">
-  Your browser does not support the audio element.
-</audio>
+<input type="button" value="play" onclick="playMusic()"/>
 
 </body>
 </html>
